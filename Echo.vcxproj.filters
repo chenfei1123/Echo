@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{148815e9-4518-42cf-a047-86e7a9d89b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\MemoryHeader">
+      <UniqueIdentifier>{d438802a-710e-44f8-8781-b9211f4cb3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\MemorySource">
+      <UniqueIdentifier>{f6db5e96-9ade-4b33-9ba5-66001edf5c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BallsMerge">
+      <UniqueIdentifier>{061172ad-cb13-4f3f-a640-411c5202b36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BallsMerge\BallsMergeHeader">
+      <UniqueIdentifier>{74769af8-80df-46db-af5e-084515064e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BallsMerge\BallsMergeSource">
+      <UniqueIdentifier>{6c96796a-1ae6-4c69-a6c7-8b420882f5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DiscordAPI">
+      <UniqueIdentifier>{92d8215f-34fd-4a9a-805e-50cd42919fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordAPI\Discord Header Files">
+      <UniqueIdentifier>{9f78984f-bcb9-49ef-ad37-08a66c64f566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordAPI\Discord Source Files">
+      <UniqueIdentifier>{c0f3beb3-098a-4b55-b6e3-8ef944fcbe20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Memory\MemorySource</Filter>
+    </ClCompile>
+    <ClCompile Include="BallsMerge.cpp">
+      <Filter>BallsMerge\BallsMergeSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoreUi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="verify.cpp">
+      <Filter>DiscordAPI\Discord Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory.h">
+      <Filter>Memory\MemoryHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="BallsMerge.h">
+      <Filter>BallsMerge\BallsMergeHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="verify.h">
+      <Filter>DiscordAPI\Discord Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MoreUi.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LogIn.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="C:\Users\33498\Desktop\more.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="C:\Users\33498\Desktop\UI\LogIn.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="C:\Users\33498\Desktop\UI\MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="C:\Users\33498\Desktop\EchoResource\test.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="C:\Users\33498\Desktop\EchoResource\More.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="C:\Users\33498\Desktop\EchoResource\Login.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
